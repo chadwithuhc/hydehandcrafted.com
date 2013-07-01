@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<STYLE type="text/css">
+* {font-family:arial;font-size:10px;color:333333};
+A {text-decoration:none};
+A:link, A:visited, A:active {color: #000033};
+A:hover {color: #333333;text-decoration:underline};
+</STYLE>
+<script>
+<!--
+
+var content=new Array()
+//change the array below to the text associated with your links Expand or contract the array, depending on how many links you have
+content[0]='<img src="/hydebeanies/colors/1.gif"><img src="/hydebeanies/colors/1.gif"><br><img src="/hydebeanies/colors/1.gif"><img src="/hydebeanies/colors/1.gif">'
+content[1]='<img src="/hydebeanies/colors/2.gif"><img src="/hydebeanies/colors/2.gif"><br><img src="/hydebeanies/colors/2.gif"><img src="/hydebeanies/colors/2.gif">'
+content[2]='<img src="/hydebeanies/colors/3.gif"><img src="/hydebeanies/colors/3.gif"><br><img src="/hydebeanies/colors/3.gif"><img src="/hydebeanies/colors/3.gif">'
+content[3]='<img src="/hydebeanies/colors/4.gif"><img src="/hydebeanies/colors/4.gif"><br><img src="/hydebeanies/colors/4.gif"><img src="/hydebeanies/colors/4.gif">'
+content[4]='<img src="/hydebeanies/colors/5.gif"><img src="/hydebeanies/colors/5.gif"><br><img src="/hydebeanies/colors/5.gif"><img src="/hydebeanies/colors/5.gif">'
+content[5]='<img src="/hydebeanies/colors/6.gif"><img src="/hydebeanies/colors/6.gif"><br><img src="/hydebeanies/colors/6.gif"><img src="/hydebeanies/colors/6.gif">'
+content[6]='<img src="/hydebeanies/colors/7.gif"><img src="/hydebeanies/colors/7.gif"><br><img src="/hydebeanies/colors/7.gif"><img src="/hydebeanies/colors/7.gif">'
+content[7]='<img src="/hydebeanies/colors/8.gif"><img src="/hydebeanies/colors/8.gif"><br><img src="/hydebeanies/colors/8.gif"><img src="/hydebeanies/colors/8.gif">'
+content[8]='<img src="/hydebeanies/colors/9.gif"><img src="/hydebeanies/colors/9.gif"><br><img src="/hydebeanies/colors/9.gif"><img src="/hydebeanies/colors/9.gif">'
+content[9]='<img src="/hydebeanies/colors/10.gif"><img src="/hydebeanies/colors/10.gif"><br><img src="/hydebeanies/colors/10.gif"><img src="/hydebeanies/colors/10.gif">'
+content[10]='<img src="/hydebeanies/colors/11.gif"><img src="/hydebeanies/colors/11.gif"><br><img src="/hydebeanies/colors/11.gif"><img src="/hydebeanies/colors/11.gif">'
+content[11]='<img src="/hydebeanies/colors/12.gif"><img src="/hydebeanies/colors/12.gif"><br><img src="/hydebeanies/colors/12.gif"><img src="/hydebeanies/colors/12.gif">'
+content[12]='<img src="/hydebeanies/colors/13.gif"><img src="/hydebeanies/colors/13.gif"><br><img src="/hydebeanies/colors/13.gif"><img src="/hydebeanies/colors/13.gif">'
+content[13]='<img src="/hydebeanies/colors/14.gif"><img src="/hydebeanies/colors/14.gif"><br><img src="/hydebeanies/colors/14.gif"><img src="/hydebeanies/colors/14.gif">'
+content[14]='<img src="/hydebeanies/colors/15.gif"><img src="/hydebeanies/colors/15.gif"><br><img src="/hydebeanies/colors/15.gif"><img src="/hydebeanies/colors/15.gif">'
+content[15]='<img src="/hydebeanies/colors/16.gif"><img src="/hydebeanies/colors/16.gif"><br><img src="/hydebeanies/colors/16.gif"><img src="/hydebeanies/colors/16.gif">'
+content[16]='<img src="/hydebeanies/colors/17.gif"><img src="/hydebeanies/colors/17.gif"><br><img src="/hydebeanies/colors/17.gif"><img src="/hydebeanies/colors/17.gif">'
+content[17]='<img src="/hydebeanies/colors/18.gif"><img src="/hydebeanies/colors/18.gif"><br><img src="/hydebeanies/colors/18.gif"><img src="/hydebeanies/colors/18.gif">'
+content[18]='<img src="/hydebeanies/colors/19.gif"><img src="/hydebeanies/colors/19.gif"><br><img src="/hydebeanies/colors/19.gif"><img src="/hydebeanies/colors/19.gif">'
+content[19]='<img src="/hydebeanies/colors/20.gif"><img src="/hydebeanies/colors/20.gif"><br><img src="/hydebeanies/colors/20.gif"><img src="/hydebeanies/colors/20.gif">'
+content[20]='<img src="/hydebeanies/colors/21.gif"><img src="/hydebeanies/colors/21.gif"><br><img src="/hydebeanies/colors/21.gif"><img src="/hydebeanies/colors/21.gif">'
+content[21]='<img src="/hydebeanies/colors/22.gif"><img src="/hydebeanies/colors/22.gif"><br><img src="/hydebeanies/colors/22.gif"><img src="/hydebeanies/colors/22.gif">'
+content[22]='<img src="/hydebeanies/colors/23.gif"><img src="/hydebeanies/colors/23.gif"><br><img src="/hydebeanies/colors/23.gif"><img src="/hydebeanies/colors/23.gif">'
+content[23]='<img src="/hydebeanies/colors/24.gif"><img src="/hydebeanies/colors/24.gif"><br><img src="/hydebeanies/colors/24.gif"><img src="/hydebeanies/colors/24.gif">'
+content[24]='<img src="/hydebeanies/colors/25.gif"><img src="/hydebeanies/colors/25.gif"><br><img src="/hydebeanies/colors/25.gif"><img src="/hydebeanies/colors/25.gif">'
+content[25]='<img src="/hydebeanies/colors/26.gif"><img src="/hydebeanies/colors/26.gif"><br><img src="/hydebeanies/colors/26.gif"><img src="/hydebeanies/colors/26.gif">'
+content[26]='<img src="/hydebeanies/colors/27.gif"><img src="/hydebeanies/colors/27.gif"><br><img src="/hydebeanies/colors/27.gif"><img src="/hydebeanies/colors/27.gif">'
+content[27]='<img src="/hydebeanies/colors/28.gif"><img src="/hydebeanies/colors/28.gif"><br><img src="/hydebeanies/colors/28.gif"><img src="/hydebeanies/colors/28.gif">'
+content[28]='<img src="/hydebeanies/colors/29.gif"><img src="/hydebeanies/colors/29.gif"><br><img src="/hydebeanies/colors/29.gif"><img src="/hydebeanies/colors/29.gif">'
+content[29]='<img src="/hydebeanies/colors/30.gif"><img src="/hydebeanies/colors/30.gif"><br><img src="/hydebeanies/colors/30.gif"><img src="/hydebeanies/colors/30.gif">'
+content[30]='<img src="/hydebeanies/colors/31.gif"><img src="/hydebeanies/colors/31.gif"><br><img src="/hydebeanies/colors/31.gif"><img src="/hydebeanies/colors/31.gif">'
+content[31]='<img src="/hydebeanies/colors/32.gif"><img src="/hydebeanies/colors/32.gif"><br><img src="/hydebeanies/colors/32.gif"><img src="/hydebeanies/colors/32.gif">'
+content[32]='<img src="/hydebeanies/colors/33.gif"><img src="/hydebeanies/colors/33.gif"><br><img src="/hydebeanies/colors/33.gif"><img src="/hydebeanies/colors/33.gif">'
+content[33]='<img src="/hydebeanies/colors/34.gif"><img src="/hydebeanies/colors/34.gif"><br><img src="/hydebeanies/colors/34.gif"><img src="/hydebeanies/colors/34.gif">'
+content[34]='<img src="/hydebeanies/colors/35.gif"><img src="/hydebeanies/colors/35.gif"><br><img src="/hydebeanies/colors/35.gif"><img src="/hydebeanies/colors/35.gif">'
+content[35]='<img src="/hydebeanies/colors/36.gif"><img src="/hydebeanies/colors/36.gif"><br><img src="/hydebeanies/colors/36.gif"><img src="/hydebeanies/colors/36.gif">'
+content[36]='<img src="/hydebeanies/colors/37.gif"><img src="/hydebeanies/colors/37.gif"><br><img src="/hydebeanies/colors/37.gif"><img src="/hydebeanies/colors/37.gif">'
+content[37]='<img src="/hydebeanies/colors/38.gif"><img src="/hydebeanies/colors/38.gif"><br><img src="/hydebeanies/colors/38.gif"><img src="/hydebeanies/colors/38.gif">'
+content[38]='<img src="/hydebeanies/colors/39.gif"><img src="/hydebeanies/colors/39.gif"><br><img src="/hydebeanies/colors/39.gif"><img src="/hydebeanies/colors/39.gif">'
+content[39]='<img src="/hydebeanies/colors/40.gif"><img src="/hydebeanies/colors/40.gif"><br><img src="/hydebeanies/colors/40.gif"><img src="/hydebeanies/colors/40.gif">'
+content[40]='<img src="/hydebeanies/colors/41.gif"><img src="/hydebeanies/colors/41.gif"><br><img src="/hydebeanies/colors/41.gif"><img src="/hydebeanies/colors/41.gif">'
+content[41]='<img src="/hydebeanies/colors/42.gif"><img src="/hydebeanies/colors/42.gif"><br><img src="/hydebeanies/colors/42.gif"><img src="/hydebeanies/colors/42.gif">'
+content[42]='<img src="/hydebeanies/colors/43.gif"><img src="/hydebeanies/colors/43.gif"><br><img src="/hydebeanies/colors/43.gif"><img src="/hydebeanies/colors/43.gif">'
+content[43]='<img src="/hydebeanies/colors/44.gif"><img src="/hydebeanies/colors/44.gif"><br><img src="/hydebeanies/colors/44.gif"><img src="/hydebeanies/colors/44.gif">'
+content[44]='<img src="/hydebeanies/colors/45.gif"><img src="/hydebeanies/colors/45.gif"><br><img src="/hydebeanies/colors/45.gif"><img src="/hydebeanies/colors/45.gif">'
+content[45]='<img src="/hydebeanies/colors/46.gif"><img src="/hydebeanies/colors/46.gif"><br><img src="/hydebeanies/colors/46.gif"><img src="/hydebeanies/colors/46.gif">'
+content[46]='<img src="/hydebeanies/colors/47.gif"><img src="/hydebeanies/colors/47.gif"><br><img src="/hydebeanies/colors/47.gif"><img src="/hydebeanies/colors/47.gif">'
+content[47]='<img src="/hydebeanies/colors/48.gif"><img src="/hydebeanies/colors/48.gif"><br><img src="/hydebeanies/colors/48.gif"><img src="/hydebeanies/colors/48.gif">'
+content[48]='<img src="/hydebeanies/colors/49.gif"><img src="/hydebeanies/colors/49.gif"><br><img src="/hydebeanies/colors/49.gif"><img src="/hydebeanies/colors/49.gif">'
+content[49]='<img src="/hydebeanies/colors/50.gif"><img src="/hydebeanies/colors/50.gif"><br><img src="/hydebeanies/colors/50.gif"><img src="/hydebeanies/colors/50.gif">'
+content[50]='<img src="/hydebeanies/colors/51.gif"><img src="/hydebeanies/colors/51.gif"><br><img src="/hydebeanies/colors/51.gif"><img src="/hydebeanies/colors/51.gif">'
+content[51]='<img src="/hydebeanies/colors/52.gif"><img src="/hydebeanies/colors/52.gif"><br><img src="/hydebeanies/colors/52.gif"><img src="/hydebeanies/colors/52.gif">'
+content[52]='<img src="/hydebeanies/colors/67.gif"><img src="/hydebeanies/colors/67.gif"><br><img src="/hydebeanies/colors/67.gif"><img src="/hydebeanies/colors/67.gif">'
+content[53]='<img src="/hydebeanies/colors/53.gif"><img src="/hydebeanies/colors/53.gif"><br><img src="/hydebeanies/colors/53.gif"><img src="/hydebeanies/colors/53.gif">'
+content[54]='<img src="/hydebeanies/colors/54.gif"><img src="/hydebeanies/colors/54.gif"><br><img src="/hydebeanies/colors/54.gif"><img src="/hydebeanies/colors/54.gif">'
+content[55]='<img src="/hydebeanies/colors/55.gif"><img src="/hydebeanies/colors/55.gif"><br><img src="/hydebeanies/colors/55.gif"><img src="/hydebeanies/colors/55.gif">'
+content[56]='<img src="/hydebeanies/colors/56.gif"><img src="/hydebeanies/colors/56.gif"><br><img src="/hydebeanies/colors/56.gif"><img src="/hydebeanies/colors/56.gif">'
+content[57]='<img src="/hydebeanies/colors/57.gif"><img src="/hydebeanies/colors/57.gif"><br><img src="/hydebeanies/colors/57.gif"><img src="/hydebeanies/colors/57.gif">'
+content[58]='<img src="/hydebeanies/colors/58.gif"><img src="/hydebeanies/colors/58.gif"><br><img src="/hydebeanies/colors/58.gif"><img src="/hydebeanies/colors/58.gif">'
+content[59]='<img src="/hydebeanies/colors/59.gif"><img src="/hydebeanies/colors/59.gif"><br><img src="/hydebeanies/colors/59.gif"><img src="/hydebeanies/colors/59.gif">'
+content[60]='<img src="/hydebeanies/colors/60.gif"><img src="/hydebeanies/colors/60.gif"><br><img src="/hydebeanies/colors/60.gif"><img src="/hydebeanies/colors/60.gif">'
+content[61]='<img src="/hydebeanies/colors/61.gif"><img src="/hydebeanies/colors/61.gif"><br><img src="/hydebeanies/colors/61.gif"><img src="/hydebeanies/colors/61.gif">'
+content[62]='<img src="/hydebeanies/colors/62.gif"><img src="/hydebeanies/colors/62.gif"><br><img src="/hydebeanies/colors/62.gif"><img src="/hydebeanies/colors/62.gif">'
+content[63]='<img src="/hydebeanies/colors/63.gif"><img src="/hydebeanies/colors/63.gif"><br><img src="/hydebeanies/colors/63.gif"><img src="/hydebeanies/colors/63.gif">'
+content[64]='<img src="/hydebeanies/colors/64.gif"><img src="/hydebeanies/colors/64.gif"><br><img src="/hydebeanies/colors/64.gif"><img src="/hydebeanies/colors/64.gif">'
+content[65]='<img src="/hydebeanies/colors/65.gif"><img src="/hydebeanies/colors/65.gif"><br><img src="/hydebeanies/colors/65.gif"><img src="/hydebeanies/colors/65.gif">'
+content[66]='<img src="/hydebeanies/colors/66.gif"><img src="/hydebeanies/colors/66.gif"><br><img src="/hydebeanies/colors/66.gif"><img src="/hydebeanies/colors/66.gif">'
+content[67]='<img src="/hydebeanies/colors/69.gif"><img src="/hydebeanies/colors/69.gif"><br><img src="/hydebeanies/colors/69.gif"><img src="/hydebeanies/colors/69.gif">'
+content[68]='<img src="/hydebeanies/colors/.gif">'
+
+
+function regenerate(){
+window.location.reload()
+}
+function regenerate2(){
+if (document.layers){
+appear()
+setTimeout("window.onresize=regenerate",450)
+}
+}
+
+function changetext(whichcontent){
+
+if (document.all||document.getElementById){
+cross_el=document.getElementById? document.getElementById("descriptions"):document.all.descriptions
+cross_el.innerHTML='<font face="Verdana"><small>'+whichcontent+'<font></small>'
+}
+else if (document.layers){
+document.d1.document.d2.document.write('<font face="Verdana"><small>'+whichcontent+'</small></font>')
+document.d1.document.d2.document.close()
+}
+
+}
+
+function appear(){
+document.d1.visibility='show'
+}
+
+window.onload=regenerate2
+
+
+//-->
+</script>
+	<title>beanie colors</title>
+</head>
+
+<body bgcolor="ffffff" text="000033" topmargin=0 leftmargin=0>
+<table width=400 height=310 border=0>
+<tr>
+<td align=center>
+<font>Put mouse over name to see sample.</font><p>
+<center>
+<table cellspacing=0 cellpadding=0 width=144 height=94 style="border-style:solid;border-width:1px;border-color:#333333">
+<tr>
+       <td align="center"><ilayer id="d1" width="200" height="200" visibility="hide">
+<layer id="d2" width="200" height="200">
+<div id="descriptions">
+
+<!--Change below to default content of your own-->
+<font>&nbsp;</font>
+<!--Stop editting-->
+
+</div>
+</layer>
+</ilayer></td>
+</tr>
+</table>
+<p><table>
+<tr>
+       <td align="center"><div id="scriptmenu"><p><font face="arial" size="1">
+	   <a href="#" onMouseover="changetext(content[0])">Adobe</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[1])">Amethyst</a>&nbsp;&middot;&nbsp;
+       <a href="#" onMouseover="changetext(content[2])">Aran Fleck</a>&nbsp;&middot;&nbsp;
+       <a href="#" onMouseover="changetext(content[3])">Aran</a>&nbsp;&middot;&nbsp;
+       <a href="#" onMouseover="changetext(content[4])">Aspen Print</a>&nbsp;&middot;&nbsp;
+       <a href="#" onMouseover="changetext(content[5])">Baby Pink</a>&nbsp;&middot;&nbsp;
+       <a href="#" onMouseover="changetext(content[6])">Black</a>&nbsp;&middot;&nbsp;
+       <a href="#" onMouseover="changetext(content[7])">Blue</a>
+	   <br>
+       <a href="#" onMouseover="changetext(content[8])">Brick Red</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[9])">Bright Yellow</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[52])">Brown</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[11])">Buff Fleck</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[12])">Buff</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[13])">Burgundy</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[14])">Cherry Red</a>
+	   <br>
+	   <a href="#" onMouseover="changetext(content[15])">Coffee</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[16])">Cornmeal</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[17])">Country Blue</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[18])">Country Rose</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[19])">Dark Plum</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[20])">Dark Sage</a>
+	   <br>
+	   <a href="#" onMouseover="changetext(content[21])">Delft Blue</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[22])">Denim Heater</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[23])">Frosty Green</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[24])">Gold</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[25])">Grey Heater</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[26])">Holly & Ivy</a>
+	   <br>
+	   <a href="#" onMouseover="changetext(content[27])">Hot Red</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[28])">Hunter Fleck</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[29])">Hunter Green</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[30])">Lavender</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[31])">Light Blue</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[32])">Light Coral</a>
+	   <br>
+	   <a href="#" onMouseover="changetext(content[33])">Light Grey</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[34])">Light Periwinkle</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[35])">Light Plum</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[36])">Light Raspberry</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[37])">Light Sage</a>
+	   <br>
+	   <a href="#" onMouseover="changetext(content[38])">Lilac</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[39])">Linen</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[40])">Lullaby</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[41])">Medium Sage</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[42])">Mexicana</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[43])">Navy Fleck</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[44])">Paddy Green</a>
+	   <br>
+	   <a href="#" onMouseover="changetext(content[45])">Painted Desert</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[46])">Pale Green</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[47])">Pale Plum</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[67])">Pale Yellow</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[48])">Petal Pink</a>
+	   <br>
+	   <a href="#" onMouseover="changetext(content[49])">Plum Heather</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[50])">Raspberry</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[51])">Rose Pink</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[53])">Royal</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[54])">Skipper Blue</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[55])">Soft Navy</a>
+	   <br>
+	   <a href="#" onMouseover="changetext(content[56])">Soft White</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[57])">Spruce</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[58])">Sugar & Spice</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[59])">Taupe Heather</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[60])">Teal</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[61])">Vibrant Orange</a>
+	   <br>
+	   <a href="#" onMouseover="changetext(content[62])">Warm Brown</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[63])">Wedgewood</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[64])">White</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[65])">Windsor Blue</a>&nbsp;&middot;&nbsp;
+	   <a href="#" onMouseover="changetext(content[66])">Woodsy</a></font></p>
+</div>
+</td>
+</tr>
+</table>
+<p>
+<SCRIPT LANGUAGE="JavaScript">
+function closeWin()
+{
+	self.close();
+}
+</SCRIPT>
+<font>[ <a href="javascript:closeWin()">close window</a> ]</font>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
